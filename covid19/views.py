@@ -6,3 +6,6 @@ def HomePage(request):
 
 def loginUser(request):
     return render(request,"covid19/login.html")
+
+def symptomAnalysis(request):
+    return render(request, "covid19/symptom_analaysis.html")
