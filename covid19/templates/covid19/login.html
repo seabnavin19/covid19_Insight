@@ -17,6 +17,7 @@
 		</div>
 		<div class="login-content">
 			<form action="index.html">
+				{% csrf_token %}
 				<img src="{% static 'images/avatar.svg'%}">
 				<h2 class="title">Welcome</h2>
            		<div class="input-div one">
